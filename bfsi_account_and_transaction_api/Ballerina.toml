@@ -1,0 +1,12 @@
+[package]
+org = "wso2bfsi"
+name = "bfsi_account_and_transaction_api"
+version = "1.0.0"
+export = ["bfsi_account_and_transaction_api","bfsi_account_and_transaction_api.interceptor","bfsi_account_and_transaction_api.model","bfsi_account_and_transaction_api.util","bfsi_account_and_transaction_api.validator"]
+distribution = "2201.3.1"
+authors = ["WSO2 BFSI"]
+keywords = ["Type/RestApi","Category/Service","Internal/http","Cost/Free","Vertical/bfsi"]
+icon = "docs/icon.png"
+
+[build-options]
+observabilityIncluded = true
